@@ -1,0 +1,15 @@
+D:\c-sharp-projects\Company.PL\Company.DL\bin\Debug\net5.0\Company.DL.deps.json
+D:\c-sharp-projects\Company.PL\Company.DL\bin\Debug\net5.0\Company.DL.runtimeconfig.json
+D:\c-sharp-projects\Company.PL\Company.DL\bin\Debug\net5.0\Company.DL.runtimeconfig.dev.json
+D:\c-sharp-projects\Company.PL\Company.DL\bin\Debug\net5.0\Company.DL.dll
+D:\c-sharp-projects\Company.PL\Company.DL\bin\Debug\net5.0\Company.DL.pdb
+D:\c-sharp-projects\Company.PL\Company.DL\obj\Debug\net5.0\Company.DL.csproj.AssemblyReference.cache
+D:\c-sharp-projects\Company.PL\Company.DL\obj\Debug\net5.0\Company.DL.GeneratedMSBuildEditorConfig.editorconfig
+D:\c-sharp-projects\Company.PL\Company.DL\obj\Debug\net5.0\Company.DL.AssemblyInfoInputs.cache
+D:\c-sharp-projects\Company.PL\Company.DL\obj\Debug\net5.0\Company.DL.AssemblyInfo.cs
+D:\c-sharp-projects\Company.PL\Company.DL\obj\Debug\net5.0\Company.DL.csproj.CoreCompileInputs.cache
+D:\c-sharp-projects\Company.PL\Company.DL\obj\Debug\net5.0\Company.DL.dll
+D:\c-sharp-projects\Company.PL\Company.DL\obj\Debug\net5.0\refint\Company.DL.dll
+D:\c-sharp-projects\Company.PL\Company.DL\obj\Debug\net5.0\Company.DL.pdb
+D:\c-sharp-projects\Company.PL\Company.DL\obj\Debug\net5.0\Company.DL.genruntimeconfig.cache
+D:\c-sharp-projects\Company.PL\Company.DL\obj\Debug\net5.0\ref\Company.DL.dll

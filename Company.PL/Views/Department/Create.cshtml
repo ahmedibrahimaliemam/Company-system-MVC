@@ -1,0 +1,13 @@
+﻿@model DepartmentViewModel
+@{
+    
+}
+<h1>Departments</h1>
+<form asp-action="Create" >
+    <partial name="PartialViews/_EditCreatePartial" model="@Model" />
+
+    <input value="submit" class="bg-info" type="submit" class="form-control" />
+</form>
+@section scriptValidationSection {
+    <partial name="_ValidationScriptsPartial" />
+}

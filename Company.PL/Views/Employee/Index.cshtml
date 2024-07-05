@@ -1,0 +1,59 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model IEnumerable<EmployeeViewModel>
+@{
+}
+
+    
+<h1>All Employees</h1>
+<br />
+<br />
+<form style="display:flex;justify-content:center;align-items:center" >
+    <input style=" height:2rem; width:30% ; " type="search" placeholder="searchByName" name="searchName" />
+    <input style="color:white;text-align:center;margin-left:10px;height:2rem ;border:none ;background-color:dodgerblue" type="submit" value="Search" />
+</form>
+<a class="btn btn-info" asp-controller="Employee" asp-action="Create">Add Employee</a>
+@if (Model.Count() > 0)
+{
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(D => D.name)</th>
+                <th>@Html.DisplayNameFor(D => D.address)</th>
+                <th>@Html.DisplayNameFor(D => D.phone)</th>
+                <th>@Html.DisplayNameFor(D => D.hirringDate)</th>
+                <th>@Html.DisplayNameFor(D => D.salary)</th>
+                <th>@Html.DisplayNameFor(D => D.email)</th>
+                <th>@Html.DisplayNameFor(D=>D.Department)</th>
+                <th>Details</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var emp in Model)
+            {
+                <tr>
+                    <td>@emp.name</td>
+                    <td>@emp.address</td>
+                    <td>@emp.phone</td>
+                    <td>@emp.hirringDate</td>
+                    <td>@emp.salary</td>
+                    <td>@emp.email</td>
+                    <td>@Html.DisplayFor(e=>emp.Department.name)</td>
+                    <partial name="_DetailsPartial" model="@emp.ID.ToString()" />
+
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <center><div class="mt-5 alert-danger">No Employees yet!</div></center>
+}
+
+
+
+

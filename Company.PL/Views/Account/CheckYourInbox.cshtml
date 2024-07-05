@@ -1,0 +1,18 @@
+﻿@model EmailModel
+@{
+    ViewData["Title"] = "CheckYourInbox";
+    Layout = "~/Views/Shared/_AuthSecurity.cshtml";
+}
+
+<h1>CheckYourInbox</h1>
+<div class="main-agileinfo">
+	<div class="agileits-top">
+		<div asp-validation-summary="All"></div>
+		<p>password reset link has been sent to your email<a href="https://mail.google.com/mail/u/0/#inbox">check your inbox</a></p>
+	</div>
+</div>
+@section scriptValidationSection {
+	<partial name="_ValidationScriptsPartial" />
+
+}
+

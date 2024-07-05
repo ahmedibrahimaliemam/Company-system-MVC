@@ -1,0 +1,12 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model EmployeeViewModel
+<h1>Details</h1>
+<div>
+    <partial name="PartialViews/_DeleteDetailsPartial" model="@Model" />
+    <a asp-action="Edit" class="btn btn-secondary" asp-route-id="@Model.ID">Edit</a>
+    <a asp-action="Index" class="btn btn-info">Back to List</a>
+</div>

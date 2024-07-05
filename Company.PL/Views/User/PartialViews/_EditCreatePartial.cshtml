@@ -1,0 +1,18 @@
+﻿
+@model UserViewModel ;
+
+<div class="form-group">
+    <label asp-for="@Model.FName">FName</label>
+    <input type="text" asp-for="@Model.FName" class="form-control" />
+    <span asp-validation-for="@Model.FName" class="bg-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="@Model.LName">LName</label>
+    <input type="text" asp-for="@Model.LName" class="form-control" />
+    <span asp-validation-for="@Model.LName" class="bg-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="@Model.PhoneNumber">PhoneNumber</label>
+    <input type="tel" asp-for="@Model.PhoneNumber" class="form-control" />
+    <span asp-validation-for="@Model.PhoneNumber" class="bg-danger"></span>
+</div>

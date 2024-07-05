@@ -1,0 +1,17 @@
+﻿@model UserViewModel;
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit</h1>
+<div asp-validation-summary="All"></div>
+<form asp-action="Edit">
+    <partial name="PartialViews/_EditCreatePartial" model="@Model" />
+    <input value="Update" class="bg-info form-control" type="submit" />
+</form>
+@section scriptValidationSection {
+    <partial name="_ValidationScriptsPartial" />
+
+}
+

@@ -1,0 +1,15 @@
+D:\c-sharp-projects\Company.PL\Comoany.Bl\bin\Debug\net5.0\Comoany.Bl.deps.json
+D:\c-sharp-projects\Company.PL\Comoany.Bl\bin\Debug\net5.0\Comoany.Bl.dll
+D:\c-sharp-projects\Company.PL\Comoany.Bl\bin\Debug\net5.0\Comoany.Bl.pdb
+D:\c-sharp-projects\Company.PL\Comoany.Bl\bin\Debug\net5.0\Company.DL.dll
+D:\c-sharp-projects\Company.PL\Comoany.Bl\bin\Debug\net5.0\Company.DL.pdb
+D:\c-sharp-projects\Company.PL\Comoany.Bl\obj\Debug\net5.0\Comoany.Bl.csproj.AssemblyReference.cache
+D:\c-sharp-projects\Company.PL\Comoany.Bl\obj\Debug\net5.0\Comoany.Bl.GeneratedMSBuildEditorConfig.editorconfig
+D:\c-sharp-projects\Company.PL\Comoany.Bl\obj\Debug\net5.0\Comoany.Bl.AssemblyInfoInputs.cache
+D:\c-sharp-projects\Company.PL\Comoany.Bl\obj\Debug\net5.0\Comoany.Bl.AssemblyInfo.cs
+D:\c-sharp-projects\Company.PL\Comoany.Bl\obj\Debug\net5.0\Comoany.Bl.csproj.CoreCompileInputs.cache
+D:\c-sharp-projects\Company.PL\Comoany.Bl\obj\Debug\net5.0\Comoany.Bl.csproj.Up2Date
+D:\c-sharp-projects\Company.PL\Comoany.Bl\obj\Debug\net5.0\Comoany.Bl.dll
+D:\c-sharp-projects\Company.PL\Comoany.Bl\obj\Debug\net5.0\refint\Comoany.Bl.dll
+D:\c-sharp-projects\Company.PL\Comoany.Bl\obj\Debug\net5.0\Comoany.Bl.pdb
+D:\c-sharp-projects\Company.PL\Comoany.Bl\obj\Debug\net5.0\ref\Comoany.Bl.dll

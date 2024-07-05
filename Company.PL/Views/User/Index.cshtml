@@ -1,0 +1,48 @@
+﻿@model IEnumerable<UserViewModel> ;
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form style="display:flex;justify-content:center;align-items:center">
+    <input style=" height:2rem; width:30% ; " type="search" placeholder="searchByName" name="searchName" />
+    <input style="color:white;text-align:center;margin-left:10px;height:2rem ;border:none ;background-color:dodgerblue" type="submit" value="Search" />
+</form>
+@if (Model.Count() > 0)
+{
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(ele=>ele.id)</th>
+                <th>@Html.DisplayNameFor(ele => ele.FName)</th>
+                <th>@Html.DisplayNameFor(ele => ele.LName)</th>
+                <th>@Html.DisplayNameFor(ele =>ele.PhoneNumber )</th>
+                <th>@Html.DisplayNameFor(ele =>ele.Email) </th>
+             
+                <th>Details</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var emp in Model)
+            {
+                <tr>
+                    <td>@emp.id</td>
+                    <td>@emp.FName</td>
+                    <td>@emp.LName</td>
+                    <td>@emp.PhoneNumber</td>
+                    <td>@emp.Email</td>
+                    <partial name="_DetailsPartial" model="@emp.id" />
+
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <center><div class="mt-5 alert-danger">No Employees yet!</div></center>
+}
+
+
