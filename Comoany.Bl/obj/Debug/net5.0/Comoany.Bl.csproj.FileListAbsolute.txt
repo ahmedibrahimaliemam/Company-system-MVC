@@ -13,3 +13,4 @@ D:\c-sharp-projects\Company.PL\Comoany.Bl\obj\Debug\net5.0\Comoany.Bl.dll
 D:\c-sharp-projects\Company.PL\Comoany.Bl\obj\Debug\net5.0\refint\Comoany.Bl.dll
 D:\c-sharp-projects\Company.PL\Comoany.Bl\obj\Debug\net5.0\Comoany.Bl.pdb
 D:\c-sharp-projects\Company.PL\Comoany.Bl\obj\Debug\net5.0\ref\Comoany.Bl.dll
+D:\c-sharp-projects\Company.PL\Comoany.Bl\obj\Debug\net5.0\Comoany.Bl.sourcelink.json
